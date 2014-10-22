@@ -1,0 +1,14 @@
+# Tutorial
+
+**DBGE** is an implementation of the 'Divergence Based Graph Estimation for Manifold Learning' method
+by KT Abou–Moustafa, F Ferrie, D Schuurmans.
+The idea is to augment the space by a neighborhood estimation and then define a new distance measure
+on this space. The resulting distance matrix can then be used in one of the standard methods like ISOMAP, LLE etc.
+
+In the following we provide an introduction to **DBGE**. An introductory example serves as a quickstart guide.
+Note that our focus is on your comprehension of the basic functions and
+applications. For detailed technical information and manual pages, please refer to
+the package's [manual pages](http://berndbischl.github.io/aydindemircioglu/man/). They are regularly updated and reflect the documentation of the current packages on CRAN.
+
+1. [Quickstart](quickstart.md)
+2. [In Depth Introduction](introduction.md)

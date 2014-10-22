@@ -1,0 +1,39 @@
+Package: DBGE
+Title: Divergence Based Graph Estimation for Manifold Learning.
+Description: A framework for manifold learning.
+Authors@R: c(person("Aydin", "Demircioglu", email = "githubAD@cloned.de", role =
+    c("aut", "cre")) )
+License: MIT + file LICENSE
+URL: https://github.com/aydindemircioglu/DBGE
+BugReports: https://github.com/aydindemircioglu/DBGE/issues
+Depends:
+    lhs,
+    mlr (>= 2.2),
+    ParamHelpers (>= 1.4)
+Imports:
+    BBmisc (>= 1.7),
+    checkmate (>= 1.4),
+    parallelMap (>= 1.1),
+    plyr,
+    reshape2,
+    soobench
+Suggests:
+    cmaes,
+    DiceKriging,
+    DiceOptim,
+    earth,
+    emoa,
+    ggplot2,
+    gridExtra,
+    kernlab, 
+    kknn,
+    mboost, 
+    mco,
+    nnet,
+    party,
+    randomForest,
+    rpart,
+    testthat
+LazyData: yes
+ByteCompile: yes
+Version: 1.0
